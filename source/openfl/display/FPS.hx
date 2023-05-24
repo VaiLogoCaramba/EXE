@@ -1,4 +1,4 @@
-package openfl.display;
+package openfl.display; //Sylvee Here :b i love my bf
 
 import haxe.Timer;
 import openfl.events.Event;
@@ -25,6 +25,12 @@ import openfl.system.System;
 @:fileXml('tags="haxe,release"')
 @:noDebug
 #end
+
+enum GLInfo
+{
+	RENDERER;
+	SHADING_LANGUAGE_VERSION;
+}
 
 class FPS extends TextField
 {
@@ -88,7 +94,9 @@ class FPS extends TextField
 			
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
-			text += "\nMemory: " + memoryMegas + " MB";
+			text += "\nRam: " + memoryMegas + " MB";
+			text += "\nOS: " + '${lime.system.System.platformLabel}';
+                        text += "\nGPU: " + '${getGLInfo(RENDERER)}';
 			#end
 
 			textColor = 0xFFFFFFFF;
@@ -107,5 +115,20 @@ class FPS extends TextField
 		}
 
 		cacheCount = currentCount;
+	}
+        private function getGLInfo(info:GLInfo):String
+	{
+		@:privateAccess
+		var gl:Dynamic = Lib.current.stage.context3D.gl;
+
+		switch (info)
+		{
+			case RENDERER:
+				return Std.string(gl.getParameter(gl.RENDERER));
+			case SHADING_LANGUAGE_VERSION:
+				return Std.string(gl.getParameter(gl.SHADING_LANGUAGE_VERSION));
+		}
+
+		return '';
 	}
 }
