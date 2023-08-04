@@ -97,7 +97,7 @@ class FPS extends TextField
 			text += "\nRam: " + memoryMegas + " MB";
 			text += "\nOS: " + '${lime.system.System.platformLabel}';
                         text += "\nGPU: " + '${getGLInfo(RENDERER)}';
-			text += "\nFork By RenTheSylvee"
+			text += "\nFork By RenTheSylvee";
 			#end
 
 			textColor = 0xFFFFFFFF;
