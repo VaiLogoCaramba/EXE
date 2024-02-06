@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": true,
+			"name": "floatidle1"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle-alt",
+			"loop": true,
+			"name": "floatidle2"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle-alt2",
+			"loop": true,
+			"name": "floatidle3"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "floatdown"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "floatright"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "floatup"
+		},
+		{
+			"offsets": [
+				0,
+				-75
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "floatleft"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/x",
+	"position": [
+		200,
+		490
+	],
+	"healthicon": "icon-xenoPixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		36,
+		36,
+		166
+	],
+	"camera_position": [
+		70,
+		-30
+	],
+	"sing_duration": 6.1,
+	"scale": 4,
+	"_editor_isPlayer": false
+}

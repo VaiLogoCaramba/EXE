@@ -1,0 +1,210 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				4,
+				28
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idea",
+			"indices": [
+				0,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"name": "idea"
+		},
+		{
+			"offsets": [
+				-160,
+				56
+			],
+			"loop": true,
+			"fps": 2,
+			"anim": "lilstretch1",
+			"indices": [],
+			"name": "lilstretch1"
+		},
+		{
+			"offsets": [
+				-160,
+				56
+			],
+			"loop": true,
+			"fps": 2,
+			"anim": "lilstretch2",
+			"indices": [],
+			"name": "lilstretch2"
+		},
+		{
+			"offsets": [
+				-160,
+				56
+			],
+			"loop": true,
+			"fps": 1,
+			"anim": "idling",
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"name": "idling"
+		},
+		{
+			"offsets": [
+				-160,
+				56
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "preparesnap",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12
+			],
+			"name": "preparesnap"
+		},
+		{
+			"offsets": [
+				-160,
+				56
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "snaps",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"name": "snaps"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/gfandpork",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-none",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		186,
+		255
+	],
+	"camera_position": [
+		-240,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 4
+}

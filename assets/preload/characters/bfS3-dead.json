@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "dies"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 8,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "diecontinue"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 9,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "dieconfirm"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/bfS3",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-none",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		186,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 4,
+	"_editor_isPlayer": true
+}
